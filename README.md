@@ -6,7 +6,5 @@ Bienvenido/a al repositorio del curso **HTML y CSS**. Aquí encontrarás ejercic
 
 Cada rama contiene contenidos específicos de la materia. Puedes acceder directamente a cada una desde aquí:
 
-- [`GLOSARIO`]((https://github.com/JoelML1/sena_actividades_HTML_Y_CSS/tree/Glosario)) – Glosario de términos HTML y CSS.
-
-## 📁 Estructura del repositorio
+- [`GLOSARIO`](https://github.com/JoelML1/sena_actividades_HTML_Y_CSS/tree/Glosario) – Glosario de términos HTML y CSS.
 
