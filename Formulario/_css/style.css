@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #181824;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  color: #f3f3f3;
+}
+
+form {
+  max-width: 450px;
+  margin: 30px auto;
+  background: #ffffff;
+  padding: 30px 25px 20px 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.25);
+}
+
+form > div {
+  margin-bottom: 18px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  color: #000000;
+  font-weight: 500;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+textarea {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1.5px solid #000000;
+  background: #ffffff;
+  color: #f3f3f3;
+  border-radius: 4px;
+  font-size: 1em;
+  box-sizing: border-box;
+  transition: border 0.2s, background 0.2s;
+  margin-bottom: 2px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+textarea:focus {
+  border-color: #8e44ad;
+  background: #23243a;
+  outline: none;
+}
+
+input[type="checkbox"] {
+  margin-right: 6px;
+  accent-color: #8e44ad;
+}
+
+button {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 4px;
+  background: #8e44ad;
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: background 0.2s;
+}
+
+button[disabled] {
+  background: #555;
+  cursor: not-allowed;
+}
+
+.valido { border: 2px solid #28a745 !important; }
+.invalido { border: 2px solid #dc3545 !important; }
+.mensaje-error { color: #ff6b6b; display: none; font-size: 0.95em; }
+.mensaje-exito { color: #28d17c; display: none; font-size: 0.95em; }
+.password-strength { height: 8px; width: 100%; background: #333; margin-top: 4px; border-radius: 4px; }
+.strength-weak { background: #dc3545; }
+.strength-medium { background: #ffc107; }
+.strength-strong { background: #28a745; }
+.strength-very-strong { background: #8e44ad; }
+#barraProgreso { height: 10px; background: #8e44ad; width: 0; transition: width 0.3s; border-radius: 5px; }
+#resumenDatos { display: none; margin-top: 20px; border: 1px solid #333; padding: 10px; border-radius: 8px; background: #23243a; color: #f3f3f3; }
+.dato-resumen { margin-bottom: 8px; }
+.etiqueta-resumen { font-weight: bold; color: #8e44ad; }

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario Avanzado</title>
+  <link rel="stylesheet" href="./_css/style.css">
+</head>
+<body>
+  <h1>Formulario Avanzado</h1>
+  <form id="formularioAvanzado" autocomplete="off">
+    <div>
+      <label for="Primernombre">Primer nombre:</label>
+      <input type="text" id="Primernombre" name="Primernombre" required>
+      <span id="errorNombre" class="mensaje-error"></span>
+      <span id="exitoNombre" class="mensaje-exito"></span>
+    </div>
+
+    <div>
+      <label for="Segundonombre">Segundo nombre:</label>
+      <input type="text" id="Segundonombre" name="Segundonombre" required>
+      <span id="errorSegundonombre" class="mensaje-error"></span>
+      <span id="exitoSegundonombre" class="mensaje-exito"></span>
+    </div>
+
+    <div>
+      <label for="apellidos">Apellidos:</label>
+      <input type="text" id="apellidos" name="apellidos" required>
+      <span id="errorApellidos" class="mensaje-error"></span>
+      <span id="exitoApellidos" class="mensaje-exito"></span>
+    </div>
+
+    <div>
+      <label for="correo">Correo electrónico:</label>
+      <input type="email" id="correo" name="correo" required>
+      <span id="errorCorreo" class="mensaje-error"></span>
+      <span id="exitoCorreo" class="mensaje-exito"></span>
+    </div>
+    <div>
+      <label for="password">Contraseña:</label>
+      <input type="password" id="password" name="password" required>
+      <div id="strengthBar" class="password-strength"></div>
+      <span id="errorPassword" class="mensaje-error"></span>
+      <span id="exitoPassword" class="mensaje-exito"></span>
+    </div>
+    <div>
+      <label for="confirmarPassword">Confirmar contraseña:</label>
+      <input type="password" id="confirmarPassword" name="confirmarPassword" required onpaste="return false;">
+      <span id="errorConfirmar" class="mensaje-error"></span>
+      <span id="exitoConfirmar" class="mensaje-exito"></span>
+    </div>
+    <div>
+      <label for="telefono">Teléfono:</label>
+      <input type="text" id="telefono" name="telefono" maxlength="12" required placeholder="300-123-4567">
+      <span id="errorTelefono" class="mensaje-error"></span>
+      <span id="exitoTelefono" class="mensaje-exito"></span>
+    </div>
+    <div>
+      <label for="fechaNacimiento">Fecha de nacimiento:</label>
+      <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+      <span id="errorFecha" class="mensaje-error"></span>
+      <span id="exitoFecha" class="mensaje-exito"></span>
+    </div>
+    <div>
+      <label for="comentarios">Comentarios (opcional):</label>
+      <textarea id="comentarios" name="comentarios" maxlength="500"></textarea>
+      <div>
+        <span id="contadorComentarios">0</span>/500 caracteres
+      </div>
+    </div>
+    <div>
+      <input type="checkbox" id="terminos" name="terminos">
+      <label for="terminos">Acepto los términos y condiciones</label>
+      <span id="errorTerminos" class="mensaje-error"></span>
+    </div>
+    <div style="margin: 20px 0;">
+      <div style="background: #eee; width: 100%; height: 10px; border-radius: 5px;">
+        <div id="barraProgreso"></div>
+      </div>
+      <span id="porcentajeProgreso">0%</span>
+    </div>
+    <button type="submit" id="btnEnviar" disabled>Enviar</button>
+    <button type="button" onclick="reiniciarFormulario()">Reiniciar</button>
+  </form>
+
+  <div id="resumenDatos">
+    <h2>Resumen de datos enviados</h2>
+    <div id="contenidoResumen"></div>
+  </div>
+
+  <script src="_js/validacion.js"></script>
+</body>
+</html>
+
+
