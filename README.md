@@ -18,7 +18,7 @@ He organizado todo en ramas específicas para que te sea fácil navegar por cada
 * [`VALIDACION FORMULARIO`](https://github.com/JoelML1/sena_actividades_HTML_Y_CSS/tree/Formulario) – Aquí me sumergí en la interactividad web, creando un formulario con validaciones avanzadas para una experiencia de usuario más robusta.
 
 ### **💼 Actividad 5: Portafolio Personal - La Culminación**
-* [`PORTAFOLIO`](https://github.com/JoelML1/sena_actividades_HTML_Y_CSS.git) – ¡Mi portafolio personal! La pieza central que reúne mis habilidades, proyectos y el reflejo de todo lo aprendido durante el curso. ¡Échale un ojo!
+* [`PORTAFOLIO`](https://github.com/JoelML1/sena_actividades_HTML_Y_CSS/tree/PORTAFOLIO) – ¡Mi portafolio personal! La pieza central que reúne mis habilidades, proyectos y el reflejo de todo lo aprendido durante el curso. ¡Échale un ojo!
 
 ---
 
