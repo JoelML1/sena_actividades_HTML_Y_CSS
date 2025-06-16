@@ -1,15 +1,15 @@
-# 🌐 HTML & CSS - Proyecto de la Materia
+🚀 HTML & CSS: Mi Galería de Proyectos
 
-Bienvenido/a al repositorio del curso **HTML y CSS**. Aquí encontrarás ejercicios, prácticas, glosarios y proyectos desarrollados durante la materia.
+¡Bienvenido/a a este espacio! 🎉 Aquí he reunido todos los tesoros de mi viaje con HTML y CSS: desde ejercicios y prácticas, hasta glosarios y proyectos finales. ¡Espero que lo disfrutes!
+🧭 Explora el Contenido por Ramas
 
-## 🧭 Navegación por ramas
+Cada rama es una aventura distinta. ¡Sumérgete y descubre lo que hay dentro!
 
-Cada rama contiene contenidos específicos de la materia. Puedes acceder directamente a cada una desde aquí:
-### Actividad 1 glosarios 
-- [`GLOSARIO`](https://github.com/JoelML1/sena_actividades_HTML_Y_CSS/tree/Glosario) – Glosario de términos HTML y CSS.
-### ACTIVIDAD 2 PAGINA
-- [`CURIOSIDADES ANIMALES`](https://github.com/JoelML1/sena_actividades_HTML_Y_CSS/tree/Curiosidades-P) – Curiosidades de animales.
-### ACTIVIDAD 3 VALIDACION FORMULARIO
-- [`VALIDACION FORMULARIO`](https://github.com/JoelML1/sena_actividades_HTML_Y_CSS/tree/Formulario) – Formulario avanzado 
-
-
+    Actividad 1: 📚 Glosario Esencial
+        GLOSARIO – Tus definiciones clave para dominar HTML y CSS.
+    Actividad 2: 🐾 Curiosidades del Reino Animal
+        CURIOSIDADES ANIMALES – Una página web llena de datos sorprendentes sobre nuestros amigos los animales.
+    Actividad 3: ✍️ Formularios Inteligentes
+        VALIDACION FORMULARIO – Aprende a crear formularios robustos con validación avanzada.
+    Actividad 5: 🌟 Mi Portafolio Digital
+        PORTAFOLIO – Un vistazo a mis habilidades y proyectos. ¡Hecho con pasión!
