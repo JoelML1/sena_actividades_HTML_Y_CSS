@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLAS</title>
+    <link rel="stylesheet" href="./_css/style.css">
+</head>
+<body>
+    <h1 id="inicio" class="texto1">Panel Moderno - Tema Oscuro</h1>
+    <h2 class="texto2">Tablas de Datos Avanzados</h2>
+    <nav>
+        <ul>
+            <li><a href="#inicio">🏠 Inicio</a></li>
+            <li><a href="#horario">🕒 Agenda</a></li>
+            <li><a href="#productos">🛒 Productos</a></li>
+            <li><a href="#torneo">🎮 Torneo</a></li>
+            <li><a href="#calendario">📆 Eventos</a></li>
+            <li><a href="#estadisticas">📈 Estadísticas</a></li>
+            <li><a href="#usuarios">👤 Usuarios</a></li>
+            <li><a href="#tareas">📝 Tareas</a></li>
+            <li><a href="#menu">🍔 Menú</a></li>
+            <li><a href="#lugares">🌍 Lugares</a></li>
+            <li><a href="#personajes">⭐ Personajes</a></li>
+        </ul>
+    </nav>
+
+    <!-- Agenda -->
+    <table class="table-schedule" id="horario">
+        <caption>🕒 Agenda Semanal</caption>
+        <tr class="header-schedule">
+            <th>Hora</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+            <th>Sábado</th>
+        </tr>
+        <tr>
+            <td>08:00 - 09:30</td>
+            <td>Planificación</td>
+            <td>Desarrollo Frontend</td>
+            <td>Revisión de Código</td>
+            <td>Testing</td>
+            <td>Deploy</td>
+            <td>Soporte</td>
+        </tr>
+        <tr>
+            <td>09:30 - 10:00</td>
+            <td colspan="6">Descanso y Café</td>
+        </tr>
+        <tr>
+            <td>10:00 - 12:00</td>
+            <td>Documentación</td>
+            <td>API REST</td>
+            <td>Scrum</td>
+            <td>UX Research</td>
+            <td>Planificación Sprints</td>
+            <td>Capacitación</td>
+        </tr>
+        <tr>
+            <td>12:00 - 13:00</td>
+            <td colspan="6">Almuerzo</td>
+        </tr>
+        <tr>
+            <td>13:00 - 15:00</td>
+            <td>Integración Continua</td>
+            <td>Desarrollo Backend</td>
+            <td>Reunión Cliente</td>
+            <td>Testing Automatizado</td>
+            <td>Deploy QA</td>
+            <td>Soporte Avanzado</td>
+        </tr>
+    </table>
+
+    <table class="table-productos" id="productos">
+        <caption>🛒 Productos Destacados</caption>
+        <tr class="header-productos">
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Cantidad</th>
+            <th>Descripción</th>
+            <th>Imagen</th>
+        </tr>
+        <tr>
+            <td>Mouse Inalámbrico</td>
+            <td>$45.000</td>
+            <td>15</td>
+            <td>Mouse ergonómico con batería recargable</td>
+            <td><img src="./img/mouse.jpg" alt="mouse"></td>
+        </tr>
+        <tr>
+            <td>Monitor 27" 4K</td>
+            <td>$320.000</td>
+            <td>5</td>
+            <td>Pantalla IPS ultra delgada</td>
+            <td><img src="./img/pantalla.webp" alt="monitor"></td>
+        </tr>
+        <tr>
+            <td>Silla Gamer</td>
+            <td>$210.000</td>
+            <td>8</td>
+            <td>Soporte lumbar y reclinable</td>
+            <td><img src="./img/silla.jpg" alt="silla"></td>
+        </tr>
+        <tr>
+            <td>Webcam HD</td>
+            <td>$60.000</td>
+            <td>20</td>
+            <td>Video 1080p y micrófono integrado</td>
+            <td><img src="./img/webcam.jpg" alt="webcam"></td>
+        </tr>
+    </table>
+
+    <!-- Torneo -->
+    <table class="table-torneo" id="torneo">
+        <caption>🎮 Torneo de Videojuegos</caption>
+        <tr>
+            <th>Equipo</th>
+            <th>Capitán</th>
+            <th>Puntos</th>
+            <th>Miembros</th>
+            <th>Logo</th>
+        </tr>
+        <tr>
+            <td>BOOM</td>
+            <td>Lucía Torres</td>
+            <td>38</td>
+            <td>5</td>
+            <td><img src="./img/Boom.png" alt="logo"></td>
+        </tr>
+        <tr>
+            <td>Heretics</td>
+            <td>Mario Díaz</td>
+            <td>29</td>
+            <td>6</td>
+            <td><img src="./img/Heretics.jpg" alt="logo"></td>
+        </tr>
+        <tr>
+            <td>DRX</td>
+            <td>Andrea Ruiz</td>
+            <td>41</td>
+            <td>5</td>
+            <td><img src="./img/DRX.webp" alt="logo"></td>
+        </tr>
+    </table>
+
+    <table class="table-eventos" id="calendario">
+        <caption>📆 Próximos Eventos</caption>
+        <tr>
+            <th>Evento</th>
+            <th>Fecha</th>
+            <th>Lugar</th>
+            <th>Descripción</th>
+            <th>Imagen</th>
+        </tr>
+        <tr>
+            <td>Hackathon 2025</td>
+            <td>15/07/2025</td>
+            <td>Centro de Innovación</td>
+            <td>Competencia de desarrollo de apps en 24h</td>
+            <td><img src="./img/competencia.jpg" alt="evento"></td>
+        </tr>
+        <tr>
+            <td>Expo Tecnología</td>
+            <td>22/08/2025</td>
+            <td>Expo Center</td>
+            <td>Exhibición de productos y charlas de expertos</td>
+            <td><img src="./img/charla.webp" alt="expo"></td>
+        </tr>
+        <tr>
+            <td>Gaming Fest</td>
+            <td>10/09/2025</td>
+            <td>Auditorio Digital</td>
+            <td>Torneos, cosplay y lanzamientos de juegos</td>
+            <td><img src="./img/cosplay.jpg" alt="gaming"></td>
+        </tr>
+    </table>
+
+
+    <table class="table-estadisticas" id="estadisticas">
+        <caption>📈 Estadísticas Generales</caption>
+        <tr>
+            <th>Métrica</th>
+            <th>Valor</th>
+            <th>Comparación</th>
+        </tr>
+        <tr>
+            <td>Usuarios Activos</td>
+            <td>1,245</td>
+            <td>+8% respecto al mes pasado</td>
+        </tr>
+        <tr>
+            <td>Ventas Totales</td>
+            <td>$3.200.000</td>
+            <td>+12% respecto al mes pasado</td>
+        </tr>
+        <tr>
+            <td>Tickets Soporte</td>
+            <td>87</td>
+            <td>-5% respecto al mes pasado</td>
+        </tr>
+        <tr>
+            <td>Proyectos Finalizados</td>
+            <td>14</td>
+            <td>+2 respecto al mes pasado</td>
+        </tr>
+    </table>
+
+
+    <table class="table-usuarios" id="usuarios">
+        <caption>👤 Usuarios Registrados</caption>
+        <tr>
+            <th>Nombre</th>
+            <th>Email</th>
+            <th>Rol</th>
+            <th>Avatar</th>
+        </tr>
+        <tr>
+            <td>Camila Herrera</td>
+            <td>camila.herrera@mail.com</td>
+            <td>Administrador</td>
+            <td><img src="https://randomuser.me/api/portraits/women/44.jpg" alt="camila"></td>
+        </tr>
+        <tr>
+            <td>Javier Soto</td>
+            <td>javier.soto@mail.com</td>
+            <td>Desarrollador</td>
+            <td><img src="https://randomuser.me/api/portraits/men/32.jpg" alt="javier"></td>
+        </tr>
+        <tr>
+            <td>Valentina Ríos</td>
+            <td>valentina.rios@mail.com</td>
+            <td>Diseñadora</td>
+            <td><img src="https://randomuser.me/api/portraits/women/65.jpg" alt="valentina"></td>
+        </tr>
+        <tr>
+            <td>Tomás Vidal</td>
+            <td>tomas.vidal@mail.com</td>
+            <td>Soporte</td>
+            <td><img src="https://randomuser.me/api/portraits/men/41.jpg" alt="tomas"></td>
+        </tr>
+    </table>
+
+
+    <table class="table-tareas" id="tareas">
+        <caption>📝 Lista de Tareas</caption>
+        <tr>
+            <th>Tarea</th>
+            <th>Responsable</th>
+            <th>Estado</th>
+            <th>Prioridad</th>
+        </tr>
+        <tr>
+            <td>Actualizar landing page</td>
+            <td>Valentina Ríos</td>
+            <td>En progreso</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Optimizar base de datos</td>
+            <td>Javier Soto</td>
+            <td>Pendiente</td>
+            <td>Media</td>
+        </tr>
+        <tr>
+            <td>Revisar tickets soporte</td>
+            <td>Tomás Vidal</td>
+            <td>Completada</td>
+            <td>Baja</td>
+        </tr>
+        <tr>
+            <td>Diseñar nuevo logo</td>
+            <td>Camila Herrera</td>
+            <td>Pendiente</td>
+            <td>Alta</td>
+        </tr>
+    </table>
+
+    <table class="table-menu" id="menu">
+        <caption>🍔 Menú del Día</caption>
+        <tr>
+            <th>Plato</th>
+            <th>Tipo</th>
+            <th>Precio</th>
+            <th>Imagen</th>
+        </tr>
+        <tr>
+            <td>Hamburguesa Vegana</td>
+            <td>Principal</td>
+            <td>$8.500</td>
+            <td><img src="./img/vegana.jpeg" alt="vegana"></td>
+        </tr>
+        <tr>
+            <td>Ensalada César</td>
+            <td>Entrada</td>
+            <td>$5.000</td>
+            <td><img src="./img/ensalada cesar.avif" alt="ensalada"></td>
+        </tr>
+        <tr>
+            <td>Brownie con Helado</td>
+            <td>Postre</td>
+            <td>$4.200</td>
+            <td><img src="./img/Brownie con Helado.jpeg" alt="brownie"></td>
+        </tr>
+    </table>
+
+    <table class="table-lugares" id="lugares">
+        <caption>🌍 Lugares Destacados</caption>
+        <tr>
+            <th>Nombre</th>
+            <th>Ciudad</th>
+            <th>País</th>
+            <th>Imagen</th>
+        </tr>
+        <tr>
+            <td>Parque Central</td>
+            <td>Medellín</td>
+            <td>Colombia</td>
+            <td><img src="./img/parque central.jpg" alt="parque"></td>
+        </tr>
+        <tr>
+            <td>Playa Dorada</td>
+            <td>Valparaíso</td>
+            <td>Chile</td>
+            <td><img src="./img/playa.jpg" alt="playa"></td>
+        </tr>
+        <tr>
+            <td>Monte Azul</td>
+            <td>Quito</td>
+            <td>Ecuador</td>
+            <td><img src="./img/monte.jpeg" alt="monte"></td>
+        </tr>
+    </table>
+
+
+    <table class="table-personajes" id="personajes">
+        <caption>⭐ Personajes Favoritos</caption>
+        <tr>
+            <th>Nombre</th>
+            <th>Rol</th>
+            <th>Descripción</th>
+            <th>Imagen</th>
+        </tr>
+        <tr>
+            <td>Alex Nova</td>
+            <td>Explorador</td>
+            <td>Curioso y valiente, siempre busca nuevos retos.</td>
+            <td><img src="https://randomuser.me/api/portraits/men/11.jpg" alt="alex"></td>
+        </tr>
+        <tr>
+            <td>Luna Vega</td>
+            <td>Ingeniera</td>
+            <td>Experta en tecnología y soluciones creativas.</td>
+            <td><img src="https://randomuser.me/api/portraits/women/21.jpg" alt="luna"></td>
+        </tr>
+        <tr>
+            <td>Max Orion</td>
+            <td>Guardián</td>
+            <td>Protector del equipo, siempre listo para ayudar.</td>
+            <td><img src="https://randomuser.me/api/portraits/men/22.jpg" alt="max"></td>
+        </tr>
+    </table>
+
+    <footer>
+        <p>© 2025 - Joel medina</p>
+        <a href="https://github.com/JoelML1" target="_blank" rel="noopener noreferrer">
+            Ver en GitHub
+        </a>
+    </footer>
+</body>
+</html>
