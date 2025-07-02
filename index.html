@@ -3,162 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joel Medina | Desarrollador Backend</title>
+    <title>Joel Medina | Backend Dev</title>
     <link rel="stylesheet" href="./_css/style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="header__content">
-                <div class="logo">
-                    <h1 class="logo__text">Joel Medina</h1>
-                </div>
-                <nav class="nav" role="navigation" aria-label="Navegación principal">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link">Inicio</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#about" class="nav__link">Sobre mí</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#skills" class="nav__link">Habilidades</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#projects" class="nav__link">Proyectos</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#contact" class="nav__link">Contacto</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
+    <header>
+        <section class="topbar">
+            <span class="brand">Joel Medina</span>
+            <nav aria-label="Menú principal">
+                <a href="#inicio">Inicio</a>
+                <a href="#perfil">Perfil</a>
+                <a href="#stack">Stack</a>
+                <a href="#trabajos">Trabajos</a>
+                <a href="#mensaje">Mensaje</a>
+            </nav>
+        </section>
     </header>
 
-    <section id="home" class="hero">
-        <div class="container">
-            <div class="hero__content">
-                <h2 class="hero__title">
-                    Desarrollador Backend <br>
-                    <span class="hero__highlight">Experto en Python y explorando Java</span>
-                </h2>
-                <p class="hero__description">
-                    Apasionado por construir sistemas robustos y eficientes. Mi enfoque principal es el desarrollo backend, donde disfruto creando soluciones escalables y optimizadas para diversas necesidades, desde proyectos personales innovadores hasta aplicaciones empresariales.
-                </p>
-            </div>
-            <div class="hero__actions">
-                <a href="#contact" class="btn btn--primary">Contactar</a>
-                <a href="#projects" class="btn btn--secondary">Ver Proyectos</a>
-            </div>
-        </div>
-    </section>
-
     <main>
-        <section id="about" class="about">
-            <div class="container">
-                <h2 class="section__title">Sobre Mí</h2>
-                <div class="about__content">
-                    <div class="about__text">
-                        <p>
-                            Soy Joel Medina, un desarrollador backend con un fuerte dominio en Python y sus frameworks, como Django y Flask. Actualmente, estoy expandiendo mis conocimientos y habilidades en Java para ampliar mi versatilidad en el desarrollo de software.
-                        </p>
-                        <p>
-                            Me considero una persona altamente analítica y proactiva, siempre en busca de nuevas tecnologías y metodologías para mejorar mis proyectos. Disfruto desglosando problemas complejos y diseñando arquitecturas de software que no solo son funcionales, sino también mantenibles y escalables.
-                        </p>
-                        <p>
-                            Mi objetivo es contribuir con soluciones innovadoras y de alta calidad que impacten positivamente. Estoy siempre abierto a nuevos desafíos y oportunidades para aprender y crecer profesionalmente.
-                        </p>
-                    </div>
-                    <div class="about__image">
-                        <img src="./_img/joel.jpg" alt="Joel Medina - Desarrollador Backend" class="profile-image">
-                    </div>
+        <section id="inicio" class="intro">
+            <h2>Backend Dev <small>(Python & Java)</small></h2>
+            <p>Construyo sistemas robustos y eficientes. Me especializo en backend, creando soluciones escalables para proyectos personales y empresariales.</p>
+            <div class="cta">
+                <a href="#mensaje" class="btn">Contáctame</a>
+                <a href="#trabajos" class="btn alt">Portafolio</a>
+            </div>
+        </section>
+
+        <section id="perfil" class="bio">
+            <h3>Sobre Joel</h3>
+            <div class="bio__wrap" style="flex-direction: column; align-items: center; text-align: center;">
+                <figure style="margin-bottom: 1.5rem;">
+                    <img src="./_img/joel.jpg" alt="Joel Medina" width="180" style="display: block; margin: 0 auto;">
+                </figure>
+                <div>
+                    <p>Desarrollador backend con experiencia en Python (Django, Flask) y aprendiendo Java. Apasionado por la tecnología y la mejora continua.</p>
+                    <p>Analítico, proactivo y siempre buscando nuevas herramientas para crear software escalable y mantenible.</p>
+                    <p>Busco aportar soluciones innovadoras y de calidad. Abierto a nuevos retos y aprendizajes.</p>
                 </div>
             </div>
         </section>
 
-        <section id="skills" class="skills">
-            <div class="container">
-                <h2 class="section__title">Habilidades</h2>
-                <div class="skills__grid">
-                    <div class="skill-category">
-                        <h3>Lenguajes de Programación</h3>
-                        <ul>
-                            <li>Python (Avanzado)</li>
-                            <li>Java (Intermedio - en estudio)</li>
-                            <li>SQL</li>
-                            <li>JavaScript (Básico)</li>
-                        </ul>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Frameworks & Librerías</h3>
-                        <ul>
-                            <li>Django</li>
-                            <li>Flask</li>
-                            <li>REST APIs</li>
-                            <li>Spring Boot (en estudio)</li>
-                        </ul>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Bases de Datos</h3>
-                        <ul>
-                            <li>MySQL</li>
-                            <li>MongoDB</li>
-                        </ul>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Herramientas y Otros</h3>
-                        <ul>
-                            <li>Git & GitHub</li>
-                            <li>AWS (Conceptos básicos)</li>
-                            <li>Linux</li>
-                            <li>Metodologías Ágiles (Scrum)</li>
-                        </ul>
-                    </div>
-                </div>
+        <section id="stack" class="skills">
+            <h3>Stack Técnico</h3>
+            <ul>
+                <li>Python (avanzado), Java (en progreso), SQL, JavaScript (básico)</li>
+                <li>Django, Flask, REST, Spring Boot (aprendiendo)</li>
+                <li>MySQL, MongoDB</li>
+                <li>Git, GitHub, AWS (básico), Linux, Scrum</li>
+            </ul>
+        </section>
+
+        <section id="trabajos" class="portfolio">
+            <h3>Proyectos</h3>
+            <article>
+                <h4>¡Nuevos proyectos en camino!</h4>
+                <p>Estoy desarrollando ideas interesantes. Pronto compartiré más aquí.</p>
+                <a href="https://github.com/JoelML1/sena_actividades_HTML_Y_CSS.git" target="_blank" class="btn">Repositorio</a>
+            </article>
+            <div>
+                <p>Descubre más en mi GitHub:</p>
+                <a href="https://github.com/JoelML1" target="_blank" class="btn">Ver Perfil</a>
             </div>
         </section>
 
-        <section id="projects" class="projects">
-            <div class="container">
-                <h2 class="section__title">Proyectos</h2>
-                <div class="projects__grid">
-                    <div class="project-card placeholder-project">
-                        <h3>¡Pronto Nuevos Proyectos!</h3>
-                        <p>Actualmente estoy trabajando en emocionantes proyectos. Vuelve pronto para ver mis últimas creaciones y demostraciones.</p>
-                        <a href="https://github.com/JoelML1/sena_actividades_HTML_Y_CSS.git" class="btn btn--small btn--primary" target="_blank">Mi GitHub</a>
-                    </div>
-                </div>
-                <div class="projects__call-to-action">
-                    <p>¡Explora más de mi trabajo en mi perfil de GitHub!</p>
-                    <a href="https://github.com/JoelML1" class="btn btn--primary" target="_blank">Visita mi GitHub</a>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact" class="contact">
-            <div class="container">
-                <h2 class="section__title">Contacto</h2>
-                <div class="contact__content">
-                    <p>¡Me encantaría saber de ti! Si tienes una pregunta, una propuesta o simplemente quieres saludar, no dudes en contactarme a través de los siguientes medios:</p>
-                    <div class="contact__info">
-                        <ul>
-                            <li><strong>Email:</strong> <a href="mailto:tu.correo@example.com">joesmele3@gmail.com</a></li>
-                            <li><strong>GitHub:</strong> <a href="https://github.com/JoelML1" target="_blank">github.com/JoelML1</a></li>
-                            </ul>
-                    </div>
-                </div>
-            </div>
+        <section id="mensaje" class="contacto">
+            <h3>Contacto</h3>
+            <p>¿Tienes una consulta o propuesta? Escríbeme:</p>
+            <ul>
+                <li>Email: <a href="mailto:joesmele3@gmail.com">joesmele3@gmail.com</a></li>
+                <li>GitHub: <a href="https://github.com/JoelML1" target="_blank">JoelML1</a></li>
+            </ul>
         </section>
     </main>
 
-    <footer class="footer">
-        <div class="container">
-            <p>2025 Joel Medina. Todos los derechos reservados.</p>
-            <div class="footer__social">
-                <a href="https://github.com/JoelML1" target="_blank" aria-label="Perfil de GitHub"><img src="./_img/github.png" alt="GitHub"></a>
-                </div>
-        </div>
+    <footer>
+        <small>© 2025 Joel Medina</small>
+        <a href="https://github.com/JoelML1" target="_blank">
+            <img src="./_img/github.png" alt="GitHub" width="24">
+        </a>
     </footer>
 </body>
 </html>
