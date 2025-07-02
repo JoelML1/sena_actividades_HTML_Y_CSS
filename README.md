@@ -1,88 +1,48 @@
-Portafolio Profesional - Joel Medina
-📌 Descripción
+# Portafolio Profesional - Joel Medina
 
-Portafolio profesional de Joel Medina, Desarrollador Backend especializado en Python y con conocimientos en Java. Este sitio web muestra habilidades, proyectos y información de contacto de manera elegante y profesional.
-🎨 Características del Diseño
-Esquema de Color
+## 📌 Descripción
 
-    Principal: Rojo vino tinto (#8B0000)
+Sitio web de portafolio profesional de Joel Medina, Desarrollador Backend especializado en Python y en proceso de aprendizaje de Java. Aquí se presentan habilidades técnicas, perfil profesional, proyectos y formas de contacto.
 
-    Secundario: Tono más claro de vino tinto (#A52A2A)
+## 🎨 Características de Diseño
 
-    Acento: Dorado/mostaza (#E6B800)
+- **Colores principales:**  
+  - Rojo vino tinto (`#8B0000`)
+  - Dorado/mostaza (`#E6B800`)
+  - Fondo oscuro (`#121212`)
+- **Tipografía:**  
+  - Principal: 'Inter', moderna y legible
+  - Secundaria: 'Georgia' para detalles
 
-    Fondo: Oscuro (#121212) con variaciones para secciones
+## 💻 Tecnologías Utilizadas
 
-Tipografía
+- HTML5 semántico y accesible
+- CSS3 avanzado con:
+  - Variables CSS (Custom Properties)
+  - Flexbox y Grid Layout
+  - Transiciones y animaciones
+  - Diseño responsive
+- Sin frameworks externos
 
-    Principal: 'Inter' (moderna y legible)
+## ✨ Efectos y Funcionalidades
 
-    Secundaria: 'Georgia' para elementos especiales
+- Animaciones y transiciones suaves en botones y enlaces
+- Secciones con tarjetas y sombras para profundidad
+- Navegación fija y accesible
+- Diseño adaptable a dispositivos móviles
 
-💻 Tecnologías Utilizadas
+## 🏗️ Estructura
 
-    HTML5 semántico y accesible
+- Header con navegación principal
+- Sección de introducción y llamada a la acción
+- Perfil profesional con imagen
+- Stack técnico en lista
+- Proyectos destacados y enlaces a GitHub
+- Sección de contacto
+- Footer con derechos y enlace a GitHub
 
-    CSS3 avanzado con:
+## 🌐 Optimización
 
-        Variables CSS (Custom Properties)
-
-        Transiciones y animaciones
-
-        Diseño responsive
-
-        Flexbox y Grid Layout
-
-    Sin dependencias de frameworks o librerías externas (excepto Google Fonts)
-
-✨ Efectos Especiales
-
-    Hover animations: Para botones, enlaces y tarjetas
-
-    Transiciones suaves: Con timing functions personalizadas
-
-    Efectos visuales:
-
-        Sombras para profundidad
-
-        Bordes animados
-
-        Transformaciones al interactuar
-
-    Diseño responsive para todos los dispositivos
-
-🏗️ Estructura del Sitio
-
-    Header fijo con efecto de desenfoque
-
-    Sección Hero con llamada a acción
-
-    Sobre mí con imagen de perfil
-
-    Habilidades en formato de tarjetas
-
-    Proyectos (con espacio para futuras adiciones)
-
-    Contacto con información relevante
-
-    Footer con redes sociales
-
-🚀 Cómo Personalizar
-
-    Reemplazar img/joel-medina.jpg con tu foto profesional
-
-    Actualizar la información personal en el HTML
-
-    Modificar los colores en las variables CSS si se desea
-
-    Añadir proyectos reales en la sección correspondiente
-
-🌐 Optimizaciones Incluidas
-
-    Performance: Código CSS optimizado
-
-    Accesibilidad: Etiquetas ARIA y semántica HTML
-
-    SEO básico: Estructura adecuada para motores de búsqueda
-
-    Mobile-first: Diseño que prioriza dispositivos móviles
+- Código CSS optimizado y organizado
+- Accesibilidad básica y estructura semántica
+- Diseño
