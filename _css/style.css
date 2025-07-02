@@ -1,6 +1,6 @@
-/* --- Variables y Reset Mejorados --- */
+
 :root {
-    /* Colores */
+
     --primary-color: #8B0000;
     --primary-light: #a83232;
     --secondary-color: #A52A2A;
@@ -13,30 +13,26 @@
     --border-color: #3D3D3D;
     --white-color: #FFFFFF;
 
-    /* Fuentes */
     --font-family-sans: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-family-serif: 'Georgia', serif;
 
-    /* Espaciado */
     --spacing-xs: 0.5rem;
     --spacing-sm: 1rem;
     --spacing-md: 1.5rem;
     --spacing-lg: 2rem;
     --spacing-xl: 3rem;
 
-    /* Sombras */
     --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
     --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
     --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.5);
 
-    /* Transiciones */
     --transition-fast: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-medium: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-slow: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-bounce: all 0.5s cubic-bezier(0.68, -0.6, 0.32, 1.6);
 }
 
-/* --- Reset y Base --- */
+
 *,
 *::before,
 *::after {
@@ -60,7 +56,6 @@ body {
     overflow-x: hidden;
 }
 
-/* --- Tipografía Mejorada --- */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     line-height: 1.2;
@@ -104,7 +99,6 @@ a:hover {
     color: var(--primary-light);
 }
 
-/* --- Header --- */
 header {
     background-color: var(--dark-background-color);
     color: var(--white-color);
@@ -168,14 +162,13 @@ nav a:hover {
     color: var(--primary-color);
 }
 
-/* --- Main Container --- */
+
 main {
     max-width: 1200px;
     margin: var(--spacing-xl) auto 0 auto;
     padding: 0 var(--spacing-md);
 }
 
-/* --- Secciones --- */
 .intro,
 .bio,
 .skills,
@@ -229,7 +222,6 @@ main {
     border-color: var(--primary-light);
 }
 
-/* --- Bio --- */
 .bio__wrap {
     display: flex;
     gap: var(--spacing-lg);
@@ -313,7 +305,6 @@ main {
     color: var(--primary-light);
 }
 
-/* --- Footer --- */
 footer {
     background-color: var(--dark-background-color);
     color: var(--white-color);
