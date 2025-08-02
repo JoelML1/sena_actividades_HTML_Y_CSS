@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FROMULARIO SENA V1</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>FROMULARIO SENA V1</h1>
+    <div class="subtitle">GRACIAS POR DEJAR SUS DATOS</div>
+    <div class="container">
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Please enter your name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Please enter your email" required>
+
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" placeholder="Please enter your age" min="0" required>
+
+            <label for="option">Choose an option</label>
+            <select id="option" name="option" required>
+                <option value="" disabled selected>Select One Option</option>
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+                <option value="option3">Option 3</option>
+            </select>
+
+            <label>Do you plan to buy a new car in the next 5 years?</label>
+            <div class="options-group">
+                <label><input type="radio" name="buy_car" value="yes" required> Yes</label>
+                <label><input type="radio" name="buy_car" value="no"> No</label>
+                <label><input type="radio" name="buy_car" value="maybe"> Maybe</label>
+            </div>
+
+            <label for="car_brand">what is your favorite car brand?</label>
+            <select id="car_brand" name="car_brand" required>
+                <option value="" disabled selected>Select One Option</option>
+                <option value="toyota">Toyota</option>
+                <option value="mazda">Mazda</option>
+                <option value="chevrolet">Chevrolet</option>
+                <option value="renault">Renault</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label>what type of means of transportation do you own ?</label>
+            <div class="options-group">
+                <label><input type="checkbox" name="transport[]" value="car"> Car</label>
+                <label><input type="checkbox" name="transport[]" value="boat"> Boat</label>
+                <label><input type="checkbox" name="transport[]" value="bicycle"> Bicycle</label>
+                <label><input type="checkbox" name="transport[]" value="motorcycle"> Motorcycle</label>
+                <label><input type="checkbox" name="transport[]" value="plane"> Plane</label>
+                <label><input type="checkbox" name="transport[]" value="bike"> Bike</label>
+            </div>
+
+            <label for="comments">Any comments suggestions?</label>
+            <textarea id="comments" name="comments" placeholder="Please enter your comments"></textarea>
+
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

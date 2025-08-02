@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+body {
+    background: linear-gradient(180deg, #8fd3f4 0%, #84fab0 100%);
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+.container {
+    background: rgba(30, 41, 82, 0.85);
+    max-width: 480px;
+    margin: 48px auto 0 auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    padding: 32px 32px 24px 32px;
+}
+h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+}
+.subtitle {
+    text-align: center;
+    color: #e0e0e0;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+label {
+    color: #fff;
+    font-weight: 600;
+    display: block;
+    margin-top: 1.2rem;
+    margin-bottom: 0.3rem;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: none;
+    background: #3b4a7a;
+    color: #fff;
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+    outline: none;
+}
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="number"]::placeholder,
+textarea::placeholder {
+    color: #b0b8d1;
+}
+select {
+    color: #b0b8d1;
+}
+.options-group {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.options-group label {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    color: #fff;
+    margin: 0.2rem 0 0.2rem 0.5rem;
+}
+.options-group input[type="radio"],
+.options-group input[type="checkbox"] {
+    margin-right: 0.6em;
+}
+textarea {
+    min-height: 48px;
+    resize: vertical;
+}
+.submit-btn {
+    width: 100%;
+    background: #e0e0e0;
+    color: #222;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 0;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.submit-btn:hover {
+    background: #b0b8d1;
+}
